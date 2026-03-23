@@ -1,10 +1,12 @@
-import DynamicFormExample from "@/components/dynamic-form-example";
+import { TeamBuilderForm } from "@/components/team-builder";
+import { Toaster } from "@/components/ui/sonner";
 
 function App() {
   return (
-    <main>
-      <DynamicFormExample />
-    </main>
+    <>
+      <TeamBuilderForm />
+      <Toaster richColors position="top-right" />
+    </>
   );
 }
 
